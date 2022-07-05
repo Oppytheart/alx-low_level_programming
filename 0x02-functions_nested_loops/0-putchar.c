@@ -6,13 +6,15 @@
  */
 int main(void)
 {
-char string = "_putchar";
-int n = 0;
-while (n < 8)
-{
-_putchar(string[n]);
-++n;
-}
-_putchar(10);
-return (0);
+	char string = "_putchar";
+	int n = 0;
+
+	while (n < 8)
+	{
+	_putchar(string[n]);
+	++n;
+	}
+	
+	_putchar(10);
+	return (0);
 }
