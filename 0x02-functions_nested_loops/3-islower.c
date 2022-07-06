@@ -12,7 +12,8 @@ _putchar(r + '0');
 r = test_islower('o');
 _putchar(r + '0');
 r = test_islower(108)
-_putchar(r + '0');
-_putchar('\n');
+}
+else
+{
 return (0);
 }
