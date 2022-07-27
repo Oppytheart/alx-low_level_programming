@@ -19,7 +19,7 @@ return (NULL);
 for (arg = 0, size = 1; arg < ac; ++arg, ++size)
 {
 for (chr = av[arg]; *chr; ++chr, ++size)
-			;
+;
 }
 cat = (char *) malloc(sizeof(char) * size);
 
